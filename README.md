@@ -48,6 +48,8 @@ Submission: Zip together the root folder and the 2 screenshots, and submit the s
 
 Our understanding of the world around us is limited by our knowledge and experience, and that as technology advances, we may need to adjust our understanding of what is possible and what is not.
 
+https://reactnative.dev/docs/environment-setup
+
 ### Reading: 
 
 Storing Projects When you complete a React Native project, you should keep it on your storage device for a little while. There are multiple instances where one project will be the basis of another project. The Udemy course keeps building on the projects, so you definitely need to keep those around until you are done with that project in the course.
