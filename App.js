@@ -5,7 +5,7 @@ export default function App() {
   const [quote, setQuote] = useState("Press Button for Technology Quote");
 
   const pressHandler = () => {
-    setQuote("As technology advances, it becomes more complex and difficult to understand, to the point where it can appear almost magical to those who don't understand it. -- ChatGPT");
+    setQuote("As technology advances, it becomes more complex and difficult to understand, to the point where it can appear almost magical to those who don't understand it. \n-- ChatGPT");
   }
 
   return (
@@ -19,7 +19,7 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: 'lightyellow',
+    backgroundColor: 'tan',
     alignItems: 'center',
     justifyContent: 'center',
   },
