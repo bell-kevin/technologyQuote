@@ -2,7 +2,8 @@
 
 Create a new React Native app project to display a technology quote when a button is pressed. That quote is: 
 
-"Any sufficiently advanced technology is indistinguishable from magic. -- Arthur C. Clarke."
+"...as technology advances, it becomes more complex and difficult to understand, to the point where it can appear almost magical to those who don't understand it -- ChatGPT."
+
 Here are screenshots showing the launch of the app, and the result after pressing the button:
 
 ![p1-tech-quote-launch.PNG](https://github.com/bell-kevin/technologyQuote/blob/main/readMePictures/p1-tech-quote-launch.PNG)
