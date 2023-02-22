@@ -46,6 +46,10 @@ Take 2 screenshots as shown above.
 
 Submission: Zip together the root folder and the 2 screenshots, and submit the single zipped folder.
 
+![p](https://github.com/bell-kevin/technologyQuote/blob/main/screenShots/Capture.PNG)
+
+![p](https://github.com/bell-kevin/technologyQuote/blob/main/screenShots/2.PNG)
+
 Our understanding of the world around us is limited by our knowledge and experience, and that as technology advances, we may need to adjust our understanding of what is possible and what is not.
 
 https://reactnative.dev/docs/environment-setup
