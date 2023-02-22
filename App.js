@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { StyleSheet, Text, View, Button } from 'react-native';
 
 export default function App() {
-  const [quote, setQuote] = useState("Press Button for \n Technology Quote");
+  const [quote, setQuote] = useState("Press Button for\n Technology Quote");
 
   const pressHandler = () => {
     setQuote("As technology advances, it becomes more complex and difficult to understand, to the point where it can appear almost magical to those who don't understand it.\n-- ChatGPT");
