@@ -38,7 +38,7 @@ With this coding, the screen would appear with the initial state of the output t
 
 When the project launches, It should display "Press Button for Technology Quote", and when the button is pressed, display the quote provided above. Set the style for the overall screen to use a different background color than white. Add another style for the quote, which adds padding between the text and the button, adds style to the text, and use a width of 80% so the text appears more centered above the button. 
 
-In this example, the background color for the app is "tan".  The font size was set to 24 and the font weight to "bold". There is padding on the bottom of the text of 18, to put some space between the text and the button. The width of the text is 80%, so the text doesn't touch the left and right edges. The text is center-aligned. Remember that the text is styled using JavaScript -- use the new-line characters of "\n" to make sure the phrases "Technology Quote" and "-- Arthur C. Clarke" start on new lines.
+In this example, the background color for the app is "tan".  The font size was set to 24 and the font weight to "bold". There is padding on the bottom of the text of 18, to put some space between the text and the button. The width of the text is 80%, so the text doesn't touch the left and right edges. The text is center-aligned. Remember that the text is styled using JavaScript -- use the new-line characters of "\n" to make sure the phrases "Technology Quote" and "-- ChatGPT" start on new lines.
 
 Your choices: background color (cannot be white), font size, font weight, amount of space between text and button (minimum value is 18), width of the quoted text (maximum value is 80%).
 
