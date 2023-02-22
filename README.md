@@ -8,7 +8,7 @@ Here are screenshots showing the launch of the app, and the result after pressin
 
 ![p1-tech-quote-launch.PNG](https://github.com/bell-kevin/technologyQuote/blob/main/readMePictures/p1-tech-quote-launch.PNG)
 
-![p1-tech-quote-run.PNG](https://github.com/bell-kevin/technologyQuote/blob/main/readMePictures/p1-tech-quote-run.PNG)
+![p1-tech-quote-run.PNG](https://github.com/bell-kevin/technologyQuote/blob/main/readMePictures/p1-tech-quote-run.png)
 
 ## Background
 
