@@ -1,4 +1,49 @@
-# 
+# Project: Technology Quote
+
+Create a new React Native app project to display a technology quote when a button is pressed. That quote is: 
+
+"Any sufficiently advanced technology is indistinguishable from magic. -- Arthur C. Clarke."
+Here are screenshots showing the launch of the app, and the result after pressing the button:
+
+![p1-tech-quote-launch.PNG](https://github.com/bell-kevin/technologyQuote/blob/main/readMePictures/p1-tech-quote-launch.PNG)
+
+![p1-tech-quote-run.PNG](https://github.com/bell-kevin/technologyQuote/blob/main/readMePictures/p1-tech-quote-run.PNG)
+
+## Background
+
+In the video tutorial, you saw how to use the onPress() property of a button to respond to the press of that button. In this project, when the button is pressed, the text displayed above it changes. In the tutorial, you used "useState" to get the user input from the text input. In this project, you will use "useState" to track what data is displayed on the screen. 
+
+The screen is very simple -- a Text component that displays a text variable, and a Button component that the user presses to display some different text. Using state, the text variable can have an initial value that tells the user to press the button, which will display when the app is launched. When the button is pressed, its onPress function calls the useState function that changes the text variable. Because the state changed, the screen will be rendered again, and the new text will be displayed.
+
+Here is a look at that code:
+
+   // declare a variable with useState
+   const [outputText, setOutputText] = useState("Press The Button");
+   // function to change the state when button is pressed
+   function pressHandler() {
+   setOutputText("Hello World!";
+   }
+   // display the screen
+   <Text>{outputText}</Text>  // this is re-rendered when the state of outputText changes
+   <Button title="Display Text" onPress={pressHandler} />
+
+With this coding, the screen would appear with the initial state of the output text variable (on the left) and render again with the changed output text after the button is pressed (on the right):
+
+![ButtonStart.PNG](https://github.com/bell-kevin/technologyQuote/blob/main/readMePictures/ButtonStart.PNG)     
+
+![ButtonEnd.PNG](https://github.com/bell-kevin/technologyQuote/blob/main/readMePictures/ButtonEnd.PNG)
+
+## Your Project
+
+When the project launches, It should display "Press Button for Technology Quote", and when the button is pressed, display the quote provided above. Set the style for the overall screen to use a different background color than white. Add another style for the quote, which adds padding between the text and the button, adds style to the text, and use a width of 80% so the text appears more centered above the button. 
+
+In this example, the background color for the app is "tan".  The font size was set to 24 and the font weight to "bold". There is padding on the bottom of the text of 18, to put some space between the text and the button. The width of the text is 80%, so the text doesn't touch the left and right edges. The text is center-aligned. Remember that the text is styled using JavaScript -- use the new-line characters of "\n" to make sure the phrases "Technology Quote" and "-- Arthur C. Clarke" start on new lines.
+
+Your choices: background color (cannot be white), font size, font weight, amount of space between text and button (minimum value is 18), width of the quoted text (maximum value is 80%).
+
+Take 2 screenshots as shown above.
+
+Submission: Zip together the root folder and the 2 screenshots, and submit the single zipped folder.
 
 Reading: Storing Projects When you complete a React Native project, you should keep it on your storage device for a little while. There are multiple instances where one project will be the basis of another project. The Udemy course keeps building on the projects, so you definitely need to keep those around until you are done with that project in the course.
 
